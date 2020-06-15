@@ -1,16 +1,26 @@
-# junsu.com
-## Projects
-- 
+---
+layout: page
+title: Works
+intro_paragraph: ''
+---
+- 고블린포토스 Android Application
+  - Kotlin, Databinding, Navigation, Coroutine, Retrofit2, DI(Koin), 
+  [PlayStore](https://play.google.com/store/apps/details?id=com.datagoblins.photos)
 
-- iClip (Android, Firebase service 개발)
-  - Android : Kotlin, Databinding, Coroutine, Firebase, DI(Koin), 
+- 아주GPS관제 시스템 쳇봇 UI
+  - [아주GPS관제 - 영업용](https://play.google.com/store/apps/details?id=kr.co.ajucorporation.mobilein)
+  - [아주GPS관제 - 고객용](https://play.google.com/store/apps/details?id=kr.co.ajucorporation.mobileout)
+
+- iClip (Android, Firebase service 개발)(2019)
+  - Android : Kotlin, Databinding, Navigation, Coroutine, Firebase, DI(Koin) 
   - Firebase : Functions(stt, ocr), Firestore, Storage, Hosting
+  [PlayStore](https://play.google.com/store/apps/details?id=kr.co.mtcom.iclip)
   <p float="left">
       <img src="assets/img/works/iclip/main.jpg" width="150">
       <img src="assets/img/works/iclip/detail.png" width="150">
   </p>
 
-- Eliga Player(Android Application)
+- Eliga Player(Android Application)(2017~2018)
   - Exoplayer, Volley(->Retrofit), RxJava
   - http://www.eligaspace.com
   - 사이니지 중앙 중앙관제솔루션 안드로이드 개발
