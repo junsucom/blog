@@ -32,22 +32,26 @@ intro_paragraph: ''
 
 ### Eliga Player(Android Application)(2017~2018)
 
-> Exoplayer, Volley(->Retrofit), RxJava
+> Exoplayer, Retrofit, RxJava
 > http://www.eligaspace.com
 > 사이니지 중앙 중앙관제솔루션 안드로이드 개발
 > 스케줄링영상 Download&Play, 시스템제어, 서버로정보전달
 
 ---
 
+
 ### Megabox Menuboard(2017.05 ~ 2017.12) Android System Application 개발
 
 > Exoplayer, Volley, Gson, UDP
 > 안드로이드 셋탑간 영상 동기화
-> ![](assets/img/works/megabox/megabox1.jpg)
+> ![image](assets/img/works/megabox/megabox1.jpg)
+
+---
 
 ### 우체국 TV 홍보영상 송출 시스템 안드로이드 디바이스 개발(2016.05 ~ 2016.10)
 
 > Exoplayer, Volley, Gson, 순번시스템장비연동(tcp/ip)
+![image](assets/img/works/postoffice2/postoffice.jpg)
 
 ---
 
@@ -97,9 +101,10 @@ intro_paragraph: ''
 ---
 
 ### 힐링톡(2012.10 ~ 2013.09)
-
-> Server Backend, Node.js, MongoDB, Ubuntu
+> Android
+> Server Backend : Node.js, MongoDB, Ubuntu
 > ~~https://play.google.com/store/apps/details?id=kr.co.lilac.healingtalk~~
 > 60,000 다운로드.(Android(Google, Naver, T-Store) + IOS)
 
 | ![image](assets/img/works/healingtalk/intro.png)| ![image](assets/img/works/healingtalk/mainpage.jpg)| ![image](assets/img/works/healingtalk/message.jpg)
+{: rules="groups"}

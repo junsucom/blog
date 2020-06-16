@@ -180,3 +180,10 @@ footer {
     grid-column: main;
   }
 }
+
+main > hr {
+  border: 0.5px solid gainsboro;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
