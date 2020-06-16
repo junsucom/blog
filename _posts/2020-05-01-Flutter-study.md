@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Flutter Study
-date: '2012-01-13 10:07:32'
+date: '2020-05-01 10:07:32'
 intro_paragraph: ''
 categories: flutter
 ---
 # Flutter
 
+---
 ## 설치
 
 - [https://flutter-ko.dev/docs/get-started/install](https://flutter-ko.dev/docs/get-started/install)
@@ -14,14 +15,16 @@ categories: flutter
 - NDK 특정 버전 필요함
     - 20.0.5594570
 
-        ![Flutter%20ef34e041fe28410297fee671920b9b3f/Preferences_for_New_Projects.png](Flutter%20ef34e041fe28410297fee671920b9b3f/Preferences_for_New_Projects.png)
+        ![Preferences_for_New_Projects](/assets/img/uploads/Preferences_for_New_Projects.png)
 
+---
 ## 중요 문서
 
 - CookBook : [https://flutter.dev/docs/cookbook](https://flutter.dev/docs/cookbook)
 - Flutter for Android developers : [https://flutter-ko.dev/docs/get-started/flutter-for/android-devs](https://flutter-ko.dev/docs/get-started/flutter-for/android-devs)
 - Flutter for iOS developers : [https://flutter.dev/docs/get-started/flutter-for/ios-devs](https://flutter.dev/docs/get-started/flutter-for/ios-devs)
 
+---
 ## 기본 구조
 
 - Widget ([https://flutter.dev/docs/development/ui/widgets](https://flutter.dev/docs/development/ui/widgets))
@@ -79,7 +82,7 @@ categories: flutter
     - [https://flutter.dev/docs/development/ui/interactive](https://flutter.dev/docs/development/ui/interactive)
     - [https://medium.com/flutter-korea/flutter-state-management-시작-a5408f7a86dd](https://medium.com/flutter-korea/flutter-state-management-%EC%8B%9C%EC%9E%91-a5408f7a86dd)
 
-        ![Flutter%20ef34e041fe28410297fee671920b9b3f/1_uyRJ8g2st03YvpEgsrf2Ow.png](Flutter%20ef34e041fe28410297fee671920b9b3f/1_uyRJ8g2st03YvpEgsrf2Ow.png)
+        ![image](/assets/img/uploads/1_uyRJ8g2st03YvpEgsrf2Ow.png)
 
     - BLOC + RxDart 추천
 
@@ -108,6 +111,7 @@ categories: flutter
             xxxhdpi	4.0x
             ```
 
+---
 ## Hot reload 지원
 
 - UI 적인 부분만 수정시에 번개 모양 클릭으로 빠르게 적용
@@ -116,16 +120,18 @@ categories: flutter
 - Hot restart : loads code changes into the VM, and restarts the Flutter app, losing the app state. (⇧⌘\ in IntelliJ and Android Studio, ⇧⌘F5 in VSCode)
 - Full restart : restarts the iOS, Android, or web app. This takes longer because it also recompiles the Java / Kotlin / ObjC / Swift code. On the web, it also restarts the Dart Development Compiler. There is no specific keyboard shortcut for this; you need to stop and start the run configuration.
 
+---
 ## 플랫폼 별 라이브러리 코드 작성
 
 ([https://flutter.dev/docs/development/platform-integration/platform-channels](https://flutter.dev/docs/development/platform-integration/platform-channels))
 
-![Flutter%20ef34e041fe28410297fee671920b9b3f/PlatformChannels.png](Flutter%20ef34e041fe28410297fee671920b9b3f/PlatformChannels.png)
+![assets/img/uploads/PlatformChannels.png](/assets/img/uploads/PlatformChannels.png)
 
 - 그냥 사람들이 올려 놓은 샘플 참고 하자.
     - get_ip([https://github.com/lotrofans/get_ip_flutter](https://github.com/lotrofans/get_ip_flutter))
 
-Flutter 내부에서 플렛폼별 소스 구분
+---
+## Flutter 내부에서 플렛폼별 소스 구분
 
 ```dart
 import ‘dart:io’ show Platform;
@@ -136,11 +142,13 @@ if (Platform.isAndroid) {
 }
 ```
 
+---
 ## Networking
 
 - [https://flutter.dev/docs/development/data-and-backend/networking](https://flutter.dev/docs/development/data-and-backend/networking)
 - http ([https://pub.dev/packages/http](https://pub.dev/packages/http))
 
+---
 ## JSON
 
 - [https://flutter.dev/docs/development/data-and-backend/json](https://flutter.dev/docs/development/data-and-backend/json)
@@ -150,11 +158,13 @@ if (Platform.isAndroid) {
 - 소규모 프로젝트에서는 데이터 직렬화 이용.
 - 대규모 프로젝트에서는 json_annotation 라이브러리 사용
 
+---
 ## 기존 앱에 Flutter 화면 적용 가능 ([https://flutter.dev/docs/development/add-to-app](https://flutter.dev/docs/development/add-to-app))
 
 - Android : AAR + FlutterActivity
 - iOS : FlutterViewController
 
+---
 ## 다국어 지원
 
 [https://flutter.dev/docs/development/accessibility-and-localization/internationalization](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
@@ -183,6 +193,7 @@ if (Platform.isAndroid) {
         Text(msg.appName)
         ```
 
+---
 ## 기타
 
 - 데이터 저장
@@ -198,12 +209,13 @@ if (Platform.isAndroid) {
 - Web 용 개발중.. : [https://flutter.dev/web](https://flutter.dev/web)
 - Desktop 용 개발중.. : [https://flutter.dev/desktop](https://flutter.dev/desktop)
 
+---
 ## Design pattern
 
 - BLOC : [https://bloclibrary.dev/#/gettingstarted](https://bloclibrary.dev/#/gettingstarted)
 
-    ![Flutter%20ef34e041fe28410297fee671920b9b3f/bloc_architecture.png](Flutter%20ef34e041fe28410297fee671920b9b3f/bloc_architecture.png)
+    | ![bloc_architecture.png](/assets/img/uploads/bloc_architecture.png)
 
-    ![Flutter%20ef34e041fe28410297fee671920b9b3f/Untitled.png](Flutter%20ef34e041fe28410297fee671920b9b3f/Untitled.png)
+    | ![flutter_infinite_list_flow.png](/assets/img/uploads/flutter_infinite_list_flow.png)
 
     Naming Conventions : \[https://bloclibrary.dev/#/blocnamingconventions](https://bloclibrary.dev/#/blocnamingconventions)
