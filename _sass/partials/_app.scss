@@ -181,9 +181,14 @@ footer {
   }
 }
 
-main > hr {
+body >main > hr {
   border: 0.5px solid gainsboro;
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+body >main > ol {
+  list-style: decimal;
+  list-style-position : inside;
 }

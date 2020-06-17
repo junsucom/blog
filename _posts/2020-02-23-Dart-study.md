@@ -90,7 +90,6 @@ isNoble(atomicNumber) {
 bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
 ```
 
----
 ### Optional parameters
 
 ```dart

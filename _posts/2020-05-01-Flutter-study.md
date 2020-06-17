@@ -111,8 +111,7 @@ categories: flutter
             xxxhdpi	4.0x
             ```
 
----
-## Hot reload 지원
+### Hot reload 지원
 
 - UI 적인 부분만 수정시에 번개 모양 클릭으로 빠르게 적용
 - [https://flutter.dev/docs/development/tools/hot-reload](https://flutter.dev/docs/development/tools/hot-reload)

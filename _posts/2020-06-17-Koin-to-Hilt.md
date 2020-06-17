@@ -18,8 +18,9 @@ DI 를 처음 적용 할때 Dagger 를 배우다 너무나도 어렵고, Kotlin 
 [Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android) 를 보면 자세한 내용들이 많은데...
 
 간단히 Koin 에서 Hilt 로 전환 하는 과정만 나열해 본다.
+<br>
 
-root build.gradle
+### root build.gradle
 
 ```xml
 buildscript {
@@ -30,8 +31,9 @@ buildscript {
     }
 }
 ```
+<br>
 
-app/build.gradle
+### app/build.gradle
 
 ```xml
 ...
@@ -52,8 +54,9 @@ dependencies {
     kapt "androidx.hilt:hilt-compiler:1.0.0-alpha01"
 }
 ```
+<br>
 
-Application Class
+### Application Class
 
 1. @HiltAndroidApp 추가
 2. 기존 startKoin 삭제
@@ -70,8 +73,9 @@ class App : Application() {
     }
 }
 ```
+<br>
 
-Activity 에 @AndroidEntryPoint 추가
+### Activity 에 @AndroidEntryPoint 추가
 
 ```kotlin
 @AndroidEntryPoint
@@ -79,8 +83,9 @@ class MainActivity : AppCompatActivity() {
 		...
 }
 ```
+<br>
 
-di/AppModule.kt 여기가 중요한 부분인데..
+### di/AppModule.kt 여기가 중요한 부분인데..
 
 1. @Module 을 만들고
 2. single, factory 는 function 으로 생성하고
@@ -111,8 +116,9 @@ val appModule = module {
     }
 }
 ```
+<br>
 
-변경된 Hilt 소스
+### 변경된 Hilt 소스
 
 ```kotlin
 @Module
@@ -138,8 +144,9 @@ object AppModule {
     }
 }
 ```
+<br>
 
-Fragment Class
+### Fragment Class
 
 1. @AndroidEntryPoint 추가
 2. by viewModels 로 ViewModel 선언
@@ -155,8 +162,9 @@ class RoomPagedListFragment : BaseFragment<FragmentListPagedRoomBinding>() {
 		...
 }
 ```
+<br>
 
-ViewModel class
+### ViewModel class
 
 1. @ViewModelInject 선언된 생성자 추가
 
@@ -166,8 +174,9 @@ class RoomPagedListViewModel @ViewModelInject constructor(private val itemDao: I
 		...
 }
 ```
+<br>
 
-끝.
+### 끝.
 
 변경된 전체 소스는 [Github AndroidSample](https://github.com/junsucom/AndroidSample/commit/8b611ed139067ec183c924b936536308c1046ce5) 에.
 
