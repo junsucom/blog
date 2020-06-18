@@ -32,7 +32,7 @@ section: true
 netlifycms: true
 
 # set to 'true' to enable Google Analytics tracking code in production builds
-analytics: false
+analytics: true
 
 # Compress CSS
 sass:
@@ -83,10 +83,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-149566199-1      # Required - replace with your tracking id
-
 plugins:
-  - jekyll-analytics
   - jekyll-sitemap
