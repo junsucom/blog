@@ -82,3 +82,11 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-149566199-1      # Required - replace with your tracking id
+
+plugins:
+  - jekyll-analytics
+  - jekyll-sitemap
