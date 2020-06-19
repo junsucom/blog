@@ -7,26 +7,34 @@ intro_paragraph: ''
 ---
 ### 고블린포토스 Android Application
 
-> Kotlin, Databinding, Navigation, Coroutine, Retrofit2, DI(Koin), 
-  [PlayStore](https://play.google.com/store/apps/details?id=com.datagoblins.photos)
+> Kotlin, Databinding, Navigation, Coroutine, Retrofit2, DI(Koin), Glide
+>
+> [PlayStore](https://play.google.com/store/apps/details?id=com.datagoblins.photos)
+
+| ![main](assets/img/works/goblins_photos/main.png) |  | ![upload](assets/img/works/goblins_photos/upload.png) |  | ![updates](assets/img/works/goblins_photos/updates.png) |  | ![shop](assets/img/works/goblins_photos/shop.png)
 
 ---
 
 ### 아주GPS관제 시스템 쳇봇 UI
 
+> Kotlin, Databinding, Navigation, Coroutine, Retrofit2, DI(Koin), Glide
+>
 > [아주GPS관제 - 영업용](https://play.google.com/store/apps/details?id=kr.co.ajucorporation.mobilein)
 >
 > [아주GPS관제 - 고객용](https://play.google.com/store/apps/details?id=kr.co.ajucorporation.mobileout)
+
+| ![main](assets/img/works/aju/aju_main.png) |  | ![chat](assets/img/works/aju/aju_chat.png)
 
 ---
 
 ### iClip (Android, Firebase service 개발)(2019)
 
-> Android : Kotlin, Databinding, Navigation, Coroutine, Firebase, DI(Koin) 
+> Android : Kotlin, Databinding, Navigation, Coroutine, Firebase, DI(Koin), Glide, BigImageViewer
 > Firebase : Functions(stt, ocr), Firestore, Storage, Hosting
+>
 > [PlayStore](https://play.google.com/store/apps/details?id=kr.co.mtcom.iclip)
 
-| ![main](assets/img/works/iclip/main.jpg) |  | ![detail](assets/img/works/iclip/detail.jpg)
+| ![main](assets/img/works/iclip/main.jpg) |  | ![detail](assets/img/works/iclip/detail.jpg) |  | ![detail](assets/img/works/iclip/folder.jpg)
 
 ---
 
