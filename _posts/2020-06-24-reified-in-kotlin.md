@@ -2,10 +2,8 @@
 layout: post
 title: reified in Kotlin
 author: junsu
-date: 2020-04-02 10:51:00
+date: 2020-04-02T10:51:00.000Z
 ---
-# reified in Kotlin
-
 JAVA 때 Gson 으로 object 를 변환 해주는 function 개발시 항상 Generic(<T>) 선언한다음 param 으로 clazz : Class 를 전달해 줘야 했다.
 
 Kotlin에서도 그렇게 사용 하고 있었는데.. reified 라는 키워드를 알고서는 이것을 해결 하기 위해서 사용 하는것이 구나 라는걸 알게 되었다.
