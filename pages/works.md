@@ -5,10 +5,20 @@ permalink: /works
 section: works
 intro_paragraph: ''
 ---
-### 고블린포토스 Android Application
+### OPSCOW(Flutter)
+
+- 서버관리 어플리케이션
+- Flutter - bloc, rxdart, hive, fl_chart
+- [Play Store](https://play.google.com/store/apps/details?id=com.opscow.opscow), [App Store](https://apps.apple.com/ca/app/opscow/id1575162819)
+
+| ![main](assets/img/works/opscow/opscow_login.png) |  | ![upload](assets/img/works/opscow/opscow_main.png) |  | ![updates](assets/img/works/opscow/opscow_chat.png) |  | ![shop](assets/img/works/opscow/opscow_alarm.png)
+{: rules="groups"}
+
+---
+### 고블린포토스(Android)
 
 - AI 서비스를 위한 사진수집 판매 어플리케이션
-- Kotlin, Databinding, Navigation, Coroutine, Retrofit2, DI(Koin), Glide
+- Android - Kotlin, Databinding, Coroutine, Glide, Retrofit, Koin, MVVM
 - [PlayStore](https://play.google.com/store/apps/details?id=com.datagoblins.photos)
 
 | ![main](assets/img/works/goblins_photos/main.png) |  | ![upload](assets/img/works/goblins_photos/upload.png) |  | ![updates](assets/img/works/goblins_photos/updates.png) |  | ![shop](assets/img/works/goblins_photos/shop.png)
@@ -16,10 +26,10 @@ intro_paragraph: ''
 
 ---
 
-### 아주GPS관제 시스템 쳇봇 UI
+### 아주GPS관제 시스템 쳇봇 UI(Android)
 
 - 주문 시스탬 챗봇서비스관련 UI개발
-- Kotlin, Databinding, Navigation, Coroutine, Retrofit2, DI(Koin), Glide
+- Kotlin, Databinding, Coroutine, Glide, Retrofit, Koin, MVVM
 - [아주GPS관제 - 영업용](https://play.google.com/store/apps/details?id=kr.co.ajucorporation.mobilein)
 - [아주GPS관제 - 고객용](https://play.google.com/store/apps/details?id=kr.co.ajucorporation.mobileout)
 
@@ -27,11 +37,12 @@ intro_paragraph: ''
 
 ---
 
-### iClip (Android, Firebase service 개발)(2019)
+### iClip (Android, Firebase service 개발, iOS 기능 일부)(2019)
 
 - 개인 사진,음성 자동 테깅 메모 어플리케이션
-- Android : Kotlin, Databinding, Navigation, Coroutine, Firebase, DI(Koin), Glide, BigImageViewer
-- Firebase : Functions(stt, ocr), Firestore, Storage, Hosting
+- Android : Kotlin, Databinding, Coroutine, Glide, Retrofit, Koin, MVVM, Firebase, 구독서비스
+- Firebase(Functions, Firestore, Storage, Hosting), GCP(Cloud Vision, Cloud Speech-to-Text, Cloud Natural Language, Cloud Pub/Sub), Typescript, Node.js, Elasticsearch
+- iOS - Firebase 관련 모듈 개발
 - [PlayStore](https://play.google.com/store/apps/details?id=kr.co.mtcom.iclip)
 
 | ![main](assets/img/works/iclip/main.jpg) |  | ![detail](assets/img/works/iclip/detail.jpg) |  | ![detail](assets/img/works/iclip/folder.jpg)
